@@ -2,9 +2,16 @@ import Image from "next/image";
 
 export default function App() {
   return (
-    <div className="p-20 m-30">
-      <h1 className="py-10">MARIO GONZÁLEZ VELA</h1>
-      <img src="https://lh3.googleusercontent.com/proxy/q5d9Z8zqDlyanWQzPebJCN1GfKg9FlZ99ZgmK6oqQQ2e-z1lCuBJatw4p-l9TM7OOHfQDDp6viwOkc-0jXRABEjchmMYUy3P7u2Y-pielo8Ng_9EdXkfyGLJVigRcJ-NwEaLs18xDO3wEccoNQJjamRS" alt="" />
+    <div className="p-10 m-10">
+      <h1 className="pb-8 text-2xl flex justify-center font-bold">MARIO GONZÁLEZ VELA</h1>
+      <div className="flex justify-center">
+        <Image
+          src="/images/webMaster.jpg"
+          width={600}   
+          height={500}
+          alt="web"
+        /> 
+      </div>
     </div>
   );
 }

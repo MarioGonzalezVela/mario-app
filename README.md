@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Creación de una web personal usando Next.js
 
-First, run the development server:
+Esta aplicación te ayudará a conocer más información sobre mí y en ella podrás descubrir varios de los proyectos más importantes que he realizado previamente
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionamiento
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Una de las características más resaltantes de Next es que te permite tener tus páginas ordenadas y estructuradas en carpetas, haciendo así más fácil su desarrollo.
+En mi caso se trata de una página principal o de inicio donde aparece mi nombre. Desde esta podrás navegar tanto a la página de "Sobre Mí" como a la de "Proyectos" mediante un simple click en la barra de navegación. Además, dispone de un Footer situado en la parte inferior de todas las páginas donde se puede acceder a mi Linkedin y a mi GitHub.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+En la página de "Sobre Mí" puedes encontrar información más detallada sobre mis estudios y gustos generales. Por otro lado, en la página de "Proyectos" vemos 3 enlaces a trabajos creados por mí durante el primer año de este grado superior, los cuales se encuentran en GitHub.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Las 2 imágenes que he usado para este trabajo se encuentran dentro de la carpeta "images", que a su vez está dentro de "public".
 
-## Learn More
+## Estilos
 
-To learn more about Next.js, take a look at the following resources:
+Para maquetar la web y darle colores apropiados haciéndola amigable y fácil de usar he utilizado *Tailwind*, un Framework muy práctico que te permite dar ese toque personal a tu sitio web mediante el atributo "className" y las nomenclaturas apropiadas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Más información sobre Next
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js Documentation](https://nextjs.org/docs) - Funciones y API.
+- [Learn Next.js](https://nextjs.org/learn) - Tutorial interactivo.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
